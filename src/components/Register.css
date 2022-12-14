@@ -1,0 +1,35 @@
+.register-form {
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 5px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.form-control {
+  width: 200px;
+  height: 35px;
+}
+
+.block-1 {
+  height: 80px;
+  width: 350px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.block-2 {
+  height: 80px;
+  width: 350px;
+  align-items: flex-start;
+}
+
+.alert {
+  color: red;
+  text-align: center;
+}
